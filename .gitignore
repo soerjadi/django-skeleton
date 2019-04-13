@@ -11,3 +11,4 @@
 node_modules/
 dist/
 settings.py
+__pycache__/
