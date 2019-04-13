@@ -41,6 +41,15 @@ INSTALLED_APPS = [
     # 'rest_framework'  # comment out this when you want to use rest api as your application part
 ]
 
+# comment out this when you want to use rest api as your application part
+# REST_FRAMEWORK = {
+#     'EXCEPTION_HANDLER': 'api.exception.api_handler',
+#     'DEFAULT_RENDERER_CLASSES': ('api.util.response.ApiRenderer',),
+#     'DEFAULT_AUTHENTICATION_CLASSES': [
+#         'api.authentication.XAccessTokenAuthentication',
+#     ]
+# }
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
