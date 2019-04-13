@@ -11,4 +11,4 @@ from rest_framework.response import Response
 class InfoView(generics.RetrieveAPIView):
 
     def get(self, request, *args, **kwargs):
-        return Response({'description': 'success'})
+        return Response({'result': 'success'})
