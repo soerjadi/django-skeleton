@@ -1,3 +1,4 @@
 django>=2.1.4
 bcrypt
 psycopg2-binary
+djangorestframework>=3.9.1
